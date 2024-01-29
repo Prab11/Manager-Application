@@ -1,0 +1,75 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, img, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Typography */
+body {
+    font-family: 'Arial', sans-serif; /* Use Google Font or web-safe font */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Set body text color */
+}
+
+h1, h2 {
+    font-family: 'Helvetica', sans-serif; /* Use Google Font or web-safe font */
+}
+
+/* Colors and Backgrounds */
+body {
+    background-color: #f4f4f4; /* Set body background color */
+}
+
+h1, h2 {
+    color: #0066cc; /* Set heading text color */
+}
+
+footer {
+    background-color: #333; /* Set footer background color */
+    color: #fff; /* Set footer text color */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Box Model */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #0066cc; /* Set border color for the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Link Styling */
+a {
+    color: #0066cc; /* Set link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    /* Styles for mobile view */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Additional styles for larger screens if needed */
+@media only screen and (min-width: 601px) {
+    /* Styles for desktop view */
+}
+
